@@ -1,0 +1,38 @@
+1. (10 points) Implement table2.h from Chapter 12. Copy table1.template and modify the collision detection mechanism to use chained hashing instead of open-address hashing.
+
+
+2. (10 points) Add a searching mechanism to your office hour projects where the professor can search by student (and get which office hours she/he attended and what topic she/he asked about) or by subject (and get which students asked about that topic at which office hours).
+
+
+3. (15 points) Write a C++ program to solve word search puzzles using an unordered_set<std::string>.
+
+A word search puzzle is an N×M
+
+array of lower-case letters, and the objective is to locate and output all dictionary words of length 6 or more that appear in this grid horizontally, vertically, or diagonally and either forwards or backwards (but no wrap-arounds).
+
+For example, given the following puzzle,
+
+r d z i t p m f
+t e k a n s t d
+t i b b a r o o
+k e l a h w a a
+c j i e p n d k
+s d e o e m z i
+h z i y l a t x
+i s h h e e l s
+
+the output should be:
+
+elephant from (7, 4) to (0, 4)
+rabbit from (2, 5) to (2, 0)
+
+Your code must
+
+be able to handle puzzles of arbitrary dimensions;
+use the dictionary words.txtPreview the document
+use an unordered_set<std::string> to store the dictionary;
+sort the output list of words of length 6 or more, along with their starting and ending positions alphabetically.
+
+Report the output for this puzzle.txtPreview the document
+
+4. (5 points) Peer Review
